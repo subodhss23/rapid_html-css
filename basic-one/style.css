@@ -146,4 +146,100 @@ a:hover{
   box-sizing: border-box;
 }
 
+.block h3{
+  text-align: center;
+  color: darkgreen;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.clr{
+  clear: both;
+}
+
+#main-block{
+  float:left;
+  width: 70%;
+  background-color: pink;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 228px;
+}
+
+/* #side-bar{
+  float: right;
+  width: 30%;
+  border: solid 1px pink;
+  color: lightblue;
+  padding: 15px;
+  background-color: lightblue;
+
+} */
+
+#side-bar{
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+  background-color: purple;
+  color: white;
+  padding: 10px;
+}
+
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 2px solid black;
+  margin-top: 20px;
+  position: relative;
+  background-image:url(./bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.p-box h1{
+  position: absolute;
+  bottom: 450px;
+}
+
+.p-box h2{
+  position: absolute;
+  top: 450px;
+  left: 688px;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  
+
+}
+
+.fix-me{
+  position: fixed;
+  top: 20px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.my-list li:first-child{
+  background-color: red;
+}
+
+.my-list li:last-child{
+  background-color: pink;
+}
+
+.my-list li:nth-child(3){
+  background-color: yellow;    
+}
+
+.my-list li:nth-child(even){
+  background-color: grey;
+}
+
+.my-list li:nth-child(odd){
+  background-color: lightblue;
+}
+
 
