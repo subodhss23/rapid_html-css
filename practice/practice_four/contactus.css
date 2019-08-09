@@ -1,0 +1,19 @@
+
+.container {
+  text-align: center;
+}
+
+.container > h1{
+  color: brown;
+}
+
+label{
+  display: block;
+}
+
+#message {
+
+    height:200px;
+    font-size:14pt;
+
+}
