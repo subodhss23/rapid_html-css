@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #1A1A1A;
+  color: #E6E6E6;
+}
+
+.main-header h1{
+  text-align: center;
+  padding: 40px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+  float: right;
+  border: 1px solid white;
+  background-color: rgb(179, 214, 179);
+  text-align:center;
+  margin-right: 40px;
+  box-sizing: content-box;
+}
+
+.box ul{
+  list-style: none;
+}
+
+.box li{
+  padding-right: 100px;
+  color: black;
+  margin: 100px;
+  /* text-align: center; */
+  font-size: 20px;
+}
